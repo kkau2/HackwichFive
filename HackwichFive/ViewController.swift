@@ -27,8 +27,9 @@ class ViewController: UIViewController {
 
     @IBAction func sliderHasMoved(_ sender: Any) {
     
-        print("The value of the slider is:\(slider.value)")
         currentValue = lroundf(slider.value)
+        print("The value of the slider is:\(slider.value)")
+        
     }
     
     @IBAction func myGuessButtonPressed(_ sender: Any) {
