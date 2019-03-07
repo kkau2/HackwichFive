@@ -20,6 +20,21 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func myGuessButtonPressed(_ sender: Any) {
+    
+    //1. Create alert view
+        let alert = UIAlertController(title:"Hello World!", message: "This is my first alert view", preferredStyle: .alert)
+        
+    //2. button that user taps to dismiss view controller
+        let action =  UIAlertAction(title: "Awesome", style: .default, handler: nil)
+        
+    //3. Add the button to the alertview
+        alert.addAction(action)
+        
+    //4. Present alertview on the screen
+        present(alert, animated: true, completion: nil)
+        
+  }
+    
 }
 
