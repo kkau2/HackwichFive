@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         currentValue = lroundf(slider.value)
         
         //Set targetValue to a randomly generated number that the acr4random_uniform function
-        //Removed after typing line 51: targetValue = 1 + Int(arc4random_uniform(100))
+        //Removed after typing line 54: targetValue = 1 + Int(arc4random_uniform(100))
         
         //call startNewRound
         startNewRound()
